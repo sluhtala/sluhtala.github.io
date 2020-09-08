@@ -142,6 +142,13 @@ a.logo:hover
 
 @media screen and (max-width: 810px) and (min-width: 600px)
 {
+   #picture
+   {
+	  margin-top:50px;
+	  margin-top:50px;
+   		width: 200px;
+   }
+
 	.section2
 	{
 		height: auto;
