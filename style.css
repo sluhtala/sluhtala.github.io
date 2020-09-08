@@ -1,0 +1,442 @@
+html, body
+{
+	max-width: 100%;
+	min-width: 300px;
+	overflow-x: hidden;
+}
+/*
+COLOR THEME
+#286575
+#2FA5C2
+#EDF2EB
+#C26B1B
+#754D28
+*/
+body 
+{
+   font-family: sans-serif;
+   padding: 0;
+   margin: 0;
+   margin-right: 0;
+   background-color: #286575;
+}
+
+h1
+{
+   font-family: times new roman;
+   font-size: 35px;
+   line-height:75px;
+   margin:0;
+	margin-right:0;
+	margin-left:0;
+	text-align: center;
+	vertical-align: middle;
+}
+
+h2
+{
+	text-align: left;
+	margin: 20px;
+	margin-bottom: 10px;
+}
+
+h4
+{
+	text-align: center;
+}
+
+a.logo
+{
+  text-decoration:none;
+}
+
+#social
+{
+   height: 75px;
+   width: 100%;
+   margin: 0;
+   text-align:center;
+   text-decoration: none;
+ }
+
+a.logo:hover
+{
+	filter:invert(1);
+}
+
+
+.logo
+{
+   line-height: 75px;
+   vertical-align:middle;
+	width: 40px;
+}
+
+#picture
+{
+	float: right;
+	margin-top: 15px; 
+	margin-bottom: 15px; 
+	margin-right: 5%;
+	margin-left: 5%;
+    width: 270px;
+	border-radius: 5px;
+}
+
+#about
+{
+   text-align: left;
+   overflow: hidden;
+   margin: 0;
+	height: 300px;
+}
+
+#infotext
+{
+   height: 150px;
+   margin: 0;
+   padding-left:3%;
+}
+
+.section2
+{
+	color: black;
+   display: block;
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	background-color: #2FA5C2;
+	padding-left: auto;
+	padding-right: auto;
+}
+
+.projects
+{
+	width: 810px;
+	height: 865px;
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.project
+{
+   	float: left;
+   	margin: 20px; 
+	width: 200px;
+   	height: 350px;
+	padding: 10px;
+	border-width: 5px;
+	border: solid;
+	border-color: #754D28;
+	background-color: #EDF2EB;
+	overflow: hidden;
+	border-radius: 5px;
+}
+
+.project:hover
+{
+   border-color: #C26B1B;
+}
+
+
+@media screen and (max-width: 810px) and (min-width: 600px)
+{
+	.section2
+	{
+		height: auto;
+		overflow: hidden;
+	}
+
+	.projects
+	{
+	   height: 1300px;
+	   overflow: hidden;
+		width: 540px;
+	}
+}
+
+@media screen and (max-width: 600px)
+{
+   html, body
+   {
+   		min-height: 3000px;
+   }
+   	h1
+   	{
+	   line-height: 60px;
+		margin: 0;
+		padding: 0;
+	}
+	#about
+	{
+		height: auto;
+		margin-right: auto;
+		padding-left: auto;
+		padding: 30px;
+		padding-top: 10px;
+		padding-bottom: 0;
+	 }
+	
+	#picture_frame
+	{
+		width: 100%;
+		height: 200px;
+		margin: 0;
+	}
+
+	#infotext
+	{
+		height: auto;
+	}
+
+	#picture
+	{
+	   display: block;
+	   	float: none;
+	    position: relative;
+		height: 200px;
+		width: 200px;
+		margin-top: auto;
+		margin-right:  auto;
+  		margin-left:  auto;
+		margin-bottom: 0;
+		border-radius: 5px;
+	}
+	
+	#social
+	{
+		height: 60px;
+		right: 0;
+	}
+	
+	.logo
+	{
+		line-height: 60px;
+	}
+
+	.section2
+	{
+		padding: 0;
+	   	height: auto;
+		padding-top: 20px;	
+	}
+	
+	h2
+	{
+	   margin: 0;
+	   margin-top: 0;
+	   margin-bottom: 20px;
+	   display: inline;		
+	}
+
+	.projects
+	{
+	    width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0;
+		height: auto;
+		padding-bottom: 20px;
+	}
+	.project
+	{
+	    float: none;
+		width: auto;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
+		overflow: hidden;
+	}
+}
+
+a:link
+{
+   color: black;
+}
+
+a:visited
+{
+   color: hsl(0, 0%, 15%);
+}
+
+footer
+{
+	font-size: 10px;
+	margin: 10px;
+	clear: both;
+}
+
+@keyframes hoversize
+{
+	from
+	{
+		background-size: 300%;
+		color: rgba(255,255,255,0%)
+	}
+	to
+	{
+		background-size: 250%;
+ 		color: rgba(255,255,255, 100%):
+	}
+}
+
+.project
+{
+   background: black;
+}
+
+@media screen and (min-width: 600px)
+{
+#rt
+{
+   color: rgba(255,255,255, 0%);
+    background-image: url("rt_image.jpg");
+	background-size:300%;	
+    background-position: center;
+}
+
+#rt:hover
+{
+	color:rgba(255,255,255,100%);
+	animation-name: hoversize;
+	animation-duration: 1s;
+	background-size: 250%;
+}
+
+#rtv1
+{
+   color: rgba(255,255,255, 0%);
+	background-image: url("rtv_image2.jpg");
+	background-size: 300%;
+	background-position: center;
+}
+
+#rtv1:hover
+{
+	color:rgba(255,255,255,100%);
+	animation-name: hoversize;
+	animation-duration: 1s;
+	background-size: 250%;
+}
+
+#fractol
+{
+   color: rgba(255,255,255, 0%);
+	background-image: url("fractol_image.jpg");
+	background-size: 300%;
+	background-position: center;
+}
+
+#fractol:hover
+{
+	color:rgba(255,255,255,100%);
+	animation-name: hoversize;
+	animation-duration: 1s;
+	background-size: 250%;
+}
+
+
+#fdf
+{
+   color: rgba(255,255,255, 0%);
+	background-image: url("fdf_image.jpg");
+	background-size: 300%;
+	background-position: center;
+	background-position: 40% 8%;;
+}
+
+#fdf:hover
+{
+	color:rgba(255,255,255,100%);
+	animation-name: hoversize;
+	animation-duration: 1s;
+	background-size: 250%;
+}
+
+#printf
+{
+   color: rgba(255,255,255, 0%);
+	background-image: url("printf_image2.jpg");
+	background-size: 300%;
+	background-position: 10% 50%;
+}
+
+#printf:hover
+{
+	color:rgba(255,255,255,100%);
+	animation-name: hoversize;
+	animation-duration: 1s;
+	background-size: 250%;
+}
+
+#gameoflife
+{
+   color: rgba(255,255,255, 0%);
+    background-image: url("gameoflife_image2.jpg");
+	background-size:300%;	
+    background-position: center;
+}
+
+#gameoflife:hover
+{
+	color:rgba(255,255,255,100%);
+	animation-name: hoversize;
+	animation-duration: 1s;
+	background-size: 250%;
+}
+}
+
+@media screen and (max-width: 600px)
+{
+	.gameoflife-mobile
+	{
+		background-image: url("gameoflife_image2.jpg");
+		color:rgba(255,255,255,100%);
+		animation-name: hoversize;
+		animation-duration: 1s;
+		background-size: 250%;
+	}
+	.printf-mobile
+	{
+		background-image: url("printf_image2.jpg");
+		color:rgba(255,255,255,100%);
+		animation-name: hoversize;
+		animation-duration: 1s;
+		background-size: 250%;
+	}
+	.fdf-mobile
+	{
+		background-image: url("fdf_image.jpg");
+		color:rgba(255,255,255,100%);
+		animation-name: hoversize;
+		animation-duration: 1s;
+		background-size: 250%;
+	}
+	.fractol-mobile
+	{
+		background-image: url("fractol_image.jpg");
+		color:rgba(255,255,255,100%);
+		animation-name: hoversize;
+		animation-duration: 1s;
+		background-size: 250%;
+	}
+	.rtv1-mobile
+	{
+		background-image: url("rtv_image2.jpg");
+		color:rgba(255,255,255,100%);
+		animation-name: hoversize;
+		background-position: center;
+		animation-duration: 1s;
+		background-size: 250%;
+	}
+	.rt-mobile
+	{
+		background-image: url("rt_image.jpg");
+		color:rgba(255,255,255,100%);
+		animation-name: hoversize;
+		animation-duration: 1s;
+		background-size: 250%;
+		background-position: center;
+	}
+}
