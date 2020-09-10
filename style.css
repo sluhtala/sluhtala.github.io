@@ -17,8 +17,11 @@ body
    font-family: sans-serif;
    padding: 0;
    margin: 0;
-   margin-right: 0;
    background-color: hsl(190, 90%, 20%);
+}
+
+#info
+{
 }
 
 h1
@@ -42,7 +45,8 @@ h2
 
 h4
 {
-	text-align: center;
+	display:inline;	
+   text-align: center;
 }
 
 a.logo
@@ -89,6 +93,9 @@ a.logo:hover
    overflow: hidden;
    margin: 0;
 	height: 300px;
+	max-width:1200px;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 #infotext
@@ -112,7 +119,7 @@ a.logo:hover
 
 .projects
 {
-	width: 810px;
+	width: 850px;
 	height: 865px;
 	padding: 0;
 	margin-left: auto;
@@ -132,6 +139,30 @@ a.logo:hover
 	background-color: #EDF2EB;
 	overflow: hidden;
 	border-radius: 5px;
+	position:relative;
+	
+ }
+
+a:link
+{
+   color: black;
+}
+
+a:visited
+{
+   color: hsl(0, 0%, 15%);
+}
+
+a.projectlink
+{
+	width:100%;
+	height:100%;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	top:0;
+	left:0;
+	display:block;
 }
 
 .project:hover
@@ -257,15 +288,6 @@ a.logo:hover
 	}
 }
 
-a:link
-{
-   color: black;
-}
-
-a:visited
-{
-   color: hsl(0, 0%, 15%);
-}
 
 footer
 {
