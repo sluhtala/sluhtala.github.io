@@ -20,9 +20,6 @@ body
    background-color: hsl(190, 90%, 20%);
 }
 
-#info
-{
-}
 
 h1
 {
@@ -103,6 +100,12 @@ a.logo:hover
    height: 150px;
    margin: 0;
    padding-left:3%;
+}
+
+#hello
+{
+	display: inline;
+	color: hsl(195, 55%, 65%);
 }
 
 .section2
@@ -227,7 +230,10 @@ a.projectlink
 	{
 		height: auto;
 	}
-
+	#hello
+	{
+		color: black;
+	}
 	#picture
 	{
 	   display: block;
@@ -404,7 +410,7 @@ footer
    color: rgba(255,255,255, 0%);
     background-image: url("gameoflife_image2.jpg");
 	background-size:300%;	
-    background-position: center;
+    background-position: 30% 17%;
 }
 
 #gameoflife:hover
@@ -424,6 +430,7 @@ footer
 		color:rgba(255,255,255,100%);
 		animation-name: hoversize;
 		animation-duration: 1s;
+		background-position: 40% 17%;
 		background-size: 250%;
 	}
 	.printf-mobile
