@@ -16,7 +16,7 @@
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
-        "deploy": "gh-pages build",
+        "deploy": "gh-pages -d build",
         "predeploy": "npm run build",
         "test": "react-scripts test",
         "eject": "react-scripts eject"
@@ -42,5 +42,5 @@
     "devDependencies": {
         "json-loader": "^0.5.7"
     },
-    "homepage": "sluhtala.github.io"
+    "homepage": "sluhtala.github.io/"
 }

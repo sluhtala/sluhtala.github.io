@@ -27,7 +27,7 @@
         },
         {
             "title": "RTv1",
-            "description": "Raytracer version number 1. My first raytracer that render simple 3D spahes in space.",
+            "description": "Raytracer version 1. My first raytracer that renders simple 3D shapes in space.",
             "img": "rtv_image.jpg",
             "link": "https://github.com/sluhtala/rtv1"
         },
