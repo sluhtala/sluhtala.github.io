@@ -1,2 +1,3 @@
 # sluhtala.github.io
-Website in progress.
+
+This is legacy website.
