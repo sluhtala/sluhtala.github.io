@@ -9,7 +9,7 @@
         },
         {
             "title": "ft_printf",
-            "description": "A good way to learn is not to use dependencies. So lets create my own library. Over 50 standard C functions recreated including my own version of printf.",
+            "description": "One of my first C project was about teaching how not to rely on dependencies. So I create my own library: over 50 standard C functions recreated including my own version of printf.",
             "img": "printf_image.png",
             "link": "https://github.com/sluhtala/libft"
         },
