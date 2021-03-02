@@ -1,0 +1,41 @@
+{
+    "img_path": "./images/",
+    "projects": [
+        {
+            "title": "Game of life",
+            "description": "Conway's game of life with c++ and SDL2. Simple rules can create complicated patterns.",
+            "img": "gameoflife_image.png",
+            "link": "https://github.com/sluhtala/gameoflife"
+        },
+        {
+            "title": "ft_printf",
+            "description": "A good way to learn is not to use dependencies. So lets create my own library. Over 50 standard C functions recreated including my own version of printf.",
+            "img": "printf_image.png",
+            "link": "https://github.com/sluhtala/libft"
+        },
+        {
+            "title": "FDF",
+            "description": "'Fils de fer' is French for wireframe. It uses linedrawing algorithm to visualize a 3D map from 2D height data.",
+            "img": "fdf_image.jpg",
+            "link": "https://github.com/sluhtala/fdf"
+        },
+        {
+            "title": "Fractol",
+            "description": "This project explores the endless patterns of fractals. I implemented mandelbrot, julia and the burning ship.",
+            "img": "fractol_image.png",
+            "link": "https://github.com/sluhtala/fractol"
+        },
+        {
+            "title": "RTv1",
+            "description": "Raytracer version number 1. My first raytracer that render simple 3D spahes in space.",
+            "img": "rtv_image.jpg",
+            "link": "https://github.com/sluhtala/rtv1"
+        },
+        {
+            "title": "RT",
+            "description": "Another raytracing project. This time with a small team and much more complicated features.",
+            "img": "rt_image.jpg",
+            "link": "https://github.com/wehard/rt"
+        }
+    ]
+}

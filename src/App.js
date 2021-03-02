@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+import MyHeader from "./components/my_header.jsx";
+import Projects from "./components/projects.jsx";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Container } from "react-bootstrap";
+import MyFooter from "./components/footer.jsx";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+    state = {};
+    render() {
+        return (
+            <Container fluid="xl" className="bg-light p-0">
+                <div className="d-flex flex-column min-vh-100">
+                    <MyHeader />
+                    <Projects />
+                    <MyFooter />
+                </div>
+            </Container>
+        );
+    }
 }
 
 export default App;
