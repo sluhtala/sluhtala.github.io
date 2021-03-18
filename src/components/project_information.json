@@ -36,6 +36,12 @@
             "description": "Another raytracing project. This time with a small team and much more complicated features.",
             "img": "rt_image.jpg",
             "link": "https://github.com/wehard/rt"
+        },
+        {
+            "title": "Fullstack site",
+            "description": "My personal project to explore how a webpage stores data all the way down to the database. It uses node.js react and mysql.",
+            "img": "fullstack.png",
+            "link": "https://github.com/sluhtala/game_back_end"
         }
     ]
 }
