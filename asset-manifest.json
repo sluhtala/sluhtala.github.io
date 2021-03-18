@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sluhtala.github.io/static/css/main.a54beaf3.chunk.css",
-    "main.js": "/sluhtala.github.io/static/js/main.e1b0a924.chunk.js",
-    "main.js.map": "/sluhtala.github.io/static/js/main.e1b0a924.chunk.js.map",
+    "main.js": "/sluhtala.github.io/static/js/main.ceaa6bd0.chunk.js",
+    "main.js.map": "/sluhtala.github.io/static/js/main.ceaa6bd0.chunk.js.map",
     "runtime-main.js": "/sluhtala.github.io/static/js/runtime-main.80fa0865.js",
     "runtime-main.js.map": "/sluhtala.github.io/static/js/runtime-main.80fa0865.js.map",
     "static/css/2.150d169a.chunk.css": "/sluhtala.github.io/static/css/2.150d169a.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.150d169a.chunk.css",
     "static/js/2.ae3f3cec.chunk.js",
     "static/css/main.a54beaf3.chunk.css",
-    "static/js/main.e1b0a924.chunk.js"
+    "static/js/main.ceaa6bd0.chunk.js"
   ]
 }
