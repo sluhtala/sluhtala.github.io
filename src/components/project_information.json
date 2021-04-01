@@ -39,8 +39,8 @@
         },
         {
             "title": "Fullstack site",
-            "description": "My personal project to explore how a webpage stores data all the way down to the database. It uses node.js react and mysql.",
-            "img": "fullstack.png",
+            "description": "I wanted to learn about full-stack development so I created a login system with React, Node.js and MySql. Login leads to a chat-game made with socket.io and p5.js",
+            "img": "fullstack_image.png",
             "link": "https://github.com/sluhtala/game_back_end"
         }
     ]

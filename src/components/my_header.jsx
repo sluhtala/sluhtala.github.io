@@ -6,7 +6,7 @@ import DropInfo from "./dropInfo.jsx";
 
 function header_style(img) {
     const style = {
-        backgroundImage: "url(" + img + ")",
+        backgroundImage: `url(${img})`,
         backgroundPosition: "center 10%",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
@@ -24,7 +24,7 @@ class MyHeader extends Component {
     state = {
         name: PersonalInfo.name,
         description: PersonalInfo.description,
-        img: PersonalInfo.img,
+        img: "../images/" + PersonalInfo.img,
     };
 
     render() {
