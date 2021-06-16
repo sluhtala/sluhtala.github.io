@@ -26,22 +26,22 @@
             "link": "https://github.com/sluhtala/fractol"
         },
         {
-            "title": "RTv1",
-            "description": "Raytracer version 1. My first raytracer that renders simple 3D shapes in space.",
-            "img": "rtv_image.jpg",
-            "link": "https://github.com/sluhtala/rtv1"
-        },
-        {
             "title": "RT",
             "description": "Another raytracing project. This time with a small team and much more complicated features.",
             "img": "rt_image.jpg",
             "link": "https://github.com/wehard/rt"
         },
         {
-            "title": "Fullstack site",
-            "description": "I wanted to learn about full-stack development so I created a login system with React, Node.js and MySql. Login leads to a chat-game made with socket.io and p5.js",
+            "title": "Chat Application",
+            "description": "(WIP) I created a login system with React, Node.js and MySql. Login leads to a chat-game made with socket.io and p5.js.",
             "img": "fullstack_image.png",
-            "link": "https://github.com/sluhtala/game_back_end"
+            "link": "https://github.com/sluhtala/chat_application"
+        },
+        {
+            "title": "Fullstack Open",
+            "description": "An open web-dev course made by University of Helsinki. Even though I'm not officially enrolled the exercises deepens my skills in JavaScript / TypeScript, React and Node.js. They also introduce me to many useful modules in Node.",
+            "img": "fullstackopen_image.png",
+            "link": "https://github.com/sluhtala/fullstackopen"
         }
     ]
 }

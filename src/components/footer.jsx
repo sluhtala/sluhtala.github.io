@@ -8,7 +8,7 @@ function MyFooter(props) {
                     </a>
                 </li>
                 <li>
-                    <a href="CV.pdf" className="m-1">
+                    <a href="https://sluhtala.github.io/cv_sasuluhtala" className="m-1">
                         CV
                     </a>
                 </li>
